@@ -16,10 +16,48 @@
 
 ## 📦 Installation
 
-### Using npm (requires Node.js)
+### Prerequisite: Install Node.js and npm
+
+Make sure you have **Node.js** (version 12 or later) and **npm** installed on your system.
+
+---
+
+### Ubuntu / Debian
 
 ```bash
-npm install -g nativefier
+sudo apt update
+sudo apt install nodejs npm
+```
+
+*If the default Node.js version is old, you can install a newer version from NodeSource:*
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+
+Then install Nativefier globally:
+
+```bash
+sudo npm install -g nativefier
+```
+
+---
+
+### Fedora
+
+```bash
+sudo dnf install nodejs npm
+sudo npm install -g nativefier
+```
+
+---
+
+### Arch Linux
+
+```bash
+sudo pacman -S nodejs npm
+sudo npm install -g nativefier
 ```
 
 ---
